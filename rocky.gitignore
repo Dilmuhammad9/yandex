@@ -1,0 +1,5 @@
+.env
+cars.db
+__pycache__/
+*.pyc
+venv/
