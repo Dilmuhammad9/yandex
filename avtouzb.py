@@ -7,11 +7,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters.command import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import urllib.parse
-from dotenv import load_dotenv
 
-load_dotenv()
-
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8512046766:AAHxe87psQLRhEjv2zcgzm86cwayeX4YR9E"
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=BOT_TOKEN)
