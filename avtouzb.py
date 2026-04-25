@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Xp3rGRTeiH8Xce7EUNkiSL0FcGxKxUix
 """
 
-!pip install aiogram
+
 
 import asyncio
 import logging
@@ -226,14 +226,6 @@ async def handle(message: types.Message):
         await message.answer(get_text(user, "support"), reply_markup=get_main_keyboard(user))
 
 async def main():
-    await dp.start_polling(bot)
-
+  await dp.start_polling(bot)
 await main()
-
-with open('.env', 'w') as f:
-    f.write('BOT_TOKEN=8751488601:AAEUTH0ssyj6lXcavCv0EeeI7euJ8j9jzc8')
-
-!ls -la
-
-!cat .env
 
