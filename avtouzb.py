@@ -6,7 +6,7 @@ from aiogram.filters.command import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import urllib.parse
 
-BOT_TOKEN = "8751488601:AAEUTH0ssyj6lXcavCv0EeeI7euJ8j9jzc8"
+BOT_TOKEN = "8751488601:AAHshZXshB-nzvpW2u2bkbA0mds6NmC_LvY"
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=BOT_TOKEN)
