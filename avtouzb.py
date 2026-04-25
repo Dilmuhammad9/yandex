@@ -215,4 +215,5 @@ async def handle(message: types.Message):
 async def main():
     await dp.start_polling(bot)
 
-await main()
+if __name__ == "__main__":
+    asyncio.run(main())
